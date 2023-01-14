@@ -420,7 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: f378ef13ae94ab8488216352373b521e, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 2a0c65e3b11ab80428acfb7db4e550ed, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -514,7 +514,7 @@ MonoBehaviour:
     m_Bits: 8
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
-  antialiasingMode: 1
+  antialiasingMode: 0
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25

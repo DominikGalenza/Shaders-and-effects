@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.08627451, g: 0.03137255, b: 0.08627451, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.02
+  m_Fog: 1
+  m_FogColor: {r: 0.34117648, g: 0.43137255, b: 0.57254905, a: 1}
+  m_FogMode: 2
+  m_FogDensity: 0.03
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -324,8 +324,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.7
+  m_Color: {r: 0.34117648, g: 0.43137255, b: 0.57254905, a: 1}
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 2a0c65e3b11ab80428acfb7db4e550ed, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 00163272fd9a3f847bc37a7c94e3f98e, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
